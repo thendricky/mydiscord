@@ -1,0 +1,85 @@
+body {
+    background-color: #36393f;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ou qualquer outra altura que você desejar */
+    overflow: hidden;
+}
+
+.profile-container {
+    width: 600px;
+    background-color: #2f3136;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-container .avatar img{
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+}
+
+.avatar img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+.info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.badges img {
+    width: 35px;
+    margin-right: 5px;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-panel,
+.right-panel {
+    flex: 1;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section .spotify{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.section .spotify img{
+    border-radius: 50%;
+    width: 100px; /* Ajuste o tamanho como preferir */
+    height: 100px; /* Ajuste o tamanho como preferir */
+    margin-right: 20px;
+}
+
+.right-panel .section img{
+    transition: 0.5s;
+    width: 30px;
+    padding-left: 4px;
+}
+
+.right-panel .section img:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
